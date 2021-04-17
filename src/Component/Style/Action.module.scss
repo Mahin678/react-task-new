@@ -1,0 +1,70 @@
+@mixin actionContent {
+    background: #525198;
+    border: 1px solid #E9EFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  @mixin textStyle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+.ActionMain{
+    .ActionMain__title{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #495057;
+        text-transform: capitalize;
+    }
+    .ActionMain__pay{
+        @include actionContent;
+        margin:0px 10px 10px 0px;
+      h6{
+            @include textStyle();
+            margin: 0px;
+      }
+    }
+    .ActionMain__request{
+        @include actionContent;
+        margin:0px 0px 10px 10px;
+
+        h6{
+            @include textStyle();
+            margin: 0px;
+        }
+    }
+    .ActionMain__topUp{
+        @include actionContent;
+        margin:10px 10px 0px 0px;
+
+
+        h6{
+            @include textStyle();
+            margin: 0px;
+        }
+    }
+    .ActionMain__WithDraw{
+        background: #F1B31C;
+        border: 1px solid #E9EFFF;
+        box-sizing: border-box;
+        border-radius: 8px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        margin:10px 0px 0px 10px;
+        h6{
+            margin: 0px;
+            @include textStyle();
+        }
+    }
+}

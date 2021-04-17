@@ -1,0 +1,102 @@
+.RecentActivityMain{
+    margin: 20px;
+    .RecentActivityMain__title{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #495057;
+    }
+    .RecentActivityMain__content{
+        background-color: #fff;
+        padding: 30px;
+    .RecentActivityMain__content__header{
+        display: flex;
+        justify-content: space-between;
+        button{
+            background-color: #E5EDF9;  
+            border: none;
+            padding: 10px 20px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+        }
+        .RecentActivityMain__content__header__btnGroup{
+            background-color: #E5EDF9;
+            border-radius: 4px;
+            padding: 6px ;
+        }
+        .RecentActivityMain__content__header__viewAll{
+            background-color: #fff;
+        }
+    }
+    .RecentActivityMain__content__inside{
+        .RecentActivityMain__content__inside__title{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            color: #495057;
+        }
+        .RecentActivityMain__content__inside__userInfo{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top:1px solid #E5EDF9;
+            border-bottom:1px solid #E5EDF9;
+            padding:20px 0px;
+            .RecentActivityMain__content__inside__userInfo__profile{
+                display: flex;
+                align-items: center;
+                h6{
+                    margin:0px 0px 5px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 17px;
+                    line-height: 19px;
+                    color: #495057;
+
+                }
+                img{
+                    display: block;
+                    margin-right: 10px;
+                }
+                p{
+                    margin:0px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #ADB5BD;
+                }
+            }
+            .RecentActivityMain__content__inside__userInfo__dollar{
+                text-align: right;
+                h4{
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: right;
+                    color: #495057;
+                    margin: 5px 0px;
+
+                }
+                button{
+                    background: #FFFFFF;
+                    border: 1px solid #114B39;
+                    box-sizing: border-box;
+                    border-radius: 4px;
+                    padding: 5px 10px;
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-align: center;
+                    color: #114B39;
+                }
+            }
+        }
+    }
+}
+}

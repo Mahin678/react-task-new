@@ -1,0 +1,119 @@
+.HeaderContentMain{
+    .HeaderContentMain__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        @media only screen and (max-width: 968px) {
+            justify-content: center;
+          }
+        .HeaderContentMain__wrapper__Dollar{
+            display: flex;
+            width: 350px;
+            background-color: #fff;
+            align-items: center;
+            padding: 24px;
+            margin: 32px 20px 0px 0px;
+            border-radius:10px;
+            box-shadow: 4px 4px 5px rgba(0,0,0,0.1);
+
+            img {
+                display: block;
+                height: 90px;
+                width: 90px;
+                margin-top: 25px;
+
+                }
+        .HeaderContentMain__wrapper__Dollar__content{
+            width: 240px;
+            p{
+                margin:0px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 15px;
+                color: #BCC2C9;
+
+            }
+            h6{
+                margin:0px;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 28px;
+            }
+            button{
+                background-color: #fff;
+                padding: 7px 15px;
+                border-radius:5px;
+                border: 1px solid purple;
+                margin: 4px 0px 14px;
+                color: purple;
+
+            }
+            h4{
+                color: #000;
+                padding: 0px;
+                margin:0px;
+                }
+            }
+        }
+        .HeaderContentMain__wrapper__myDollar{
+            display: flex;
+            width: 350px;
+            background-color: #fff;
+            align-items: center;
+            padding: 24px;
+            border-radius:10px;
+            margin: 32px 20px 0px 0px;
+            box-shadow: 4px 4px 5px rgba(0,0,0,0.1);
+            .HeaderContentMain__wrapper__myDollar__content{
+                width: 240px;
+                p{
+                margin-top: 46px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 15px;
+                color: #BCC2C9;
+
+                }
+                h6{
+                    margin:0px;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 28px;
+
+                }
+                h4{
+                    color: #000;
+                    padding: 0px;
+            
+                    }
+            }
+            img{
+                margin-top: 25px;
+                display: block;
+                height: 90px;
+                width: 90px;
+            }
+        }
+        .HeaderContentMain__wrapper__addBallance{
+            background-color:#fff;
+            width: 350px;
+            border-radius:10px;
+            text-align: center;
+            box-shadow: 4px 4px 5px rgba(0,0,0,0.1);
+            border: 1px dashed purple;
+            border-width:2px;
+            margin-top: 32px;
+            h6{
+                margin-top: 5rem;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                color: #54509D;
+            }
+
+        }
+    }
+}
