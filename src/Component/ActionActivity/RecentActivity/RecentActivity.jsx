@@ -6,6 +6,8 @@ import user1 from "../../../asset/Image/user1.png";
 import user2 from "../../../asset/Image/user2.png";
 import user3 from "../../../asset/Image/user3.png";
 import user4 from "../../../asset/Image/user4.png";
+
+// fakedata
 const data = [
   {
     title: "Dollar Balance (Primary)",

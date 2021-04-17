@@ -22,6 +22,7 @@ const ActionActivity = () => {
           <RecentActivity />
         </Grid>
       </Grid>
+
       <div className={ActionActivityStyle.ActionActivityMain__bannerWrapper}>
         <img src={bannerImg} alt="banneriImage" />
       </div>

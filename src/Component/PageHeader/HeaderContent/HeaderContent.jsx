@@ -3,6 +3,7 @@ import React from "react";
 import HeaderContentStyle from ".././../Style/HeaderContent.module.scss";
 // import from img
 import QrImage from "./../../../asset/Image/QR.png";
+
 const HeaderContent = () => {
   return (
     <div className={HeaderContentStyle.HeaderContentMain}>
